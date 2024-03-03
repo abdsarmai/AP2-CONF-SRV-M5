@@ -3,3 +3,5 @@
 apt-get update && apt-get install python3 python3-pip
 #Installation du Framework et Service web qui est lié avec
 pip3 install flask Werkzeug
+#Activation du module WSGI apache2
+a2enmod wsgi
