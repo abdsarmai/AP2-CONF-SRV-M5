@@ -1,0 +1,11 @@
+$TTL    604800
+@       IN      SOA     ns1.resanet-lisser.local. admin.resanet-lisser.local. (
+                            3         ; Serial
+                            604800    ; Refresh
+                            86400     ; Retry
+                            2419200   ; Expire
+                            604800 )  ; Negative Cache TTL
+;
+@       IN      NS      ns1.resanet-lisser.local.
+@       IN      A       <adresse_IP_de_votre_serveur>
+ns1     IN      A       <adresse_IP_de_votre_serveur>

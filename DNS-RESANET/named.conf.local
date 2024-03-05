@@ -1,0 +1,4 @@
+zone "resanet-lisser.local" {
+    type master;
+    file "/etc/bind/zones/resanet-lisser.local.db";
+};
